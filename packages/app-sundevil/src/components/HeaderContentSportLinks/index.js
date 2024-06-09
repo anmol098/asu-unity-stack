@@ -72,7 +72,7 @@ const SportItemLinksRoot = styled.ul`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 18px;
 `;
 
 /**
@@ -99,7 +99,7 @@ const SportGridListItemRoot = styled.li`
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  gap: 0.25rem;
+  gap: 6px;
 `;
 
 const SportLinksRoot = styled.div`
@@ -168,7 +168,7 @@ const FooterRoot = styled.div`
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 16px 32px;
   border-top: 1px solid var(--divider-color);
   width: 100%;
 `;
@@ -213,11 +213,11 @@ const FooterTicketMaster = styled.div`
 const SportGridList = styled.div`
   color: var(--text-color-primary);
   font-size: var(--font-size-normal);
-  padding: 2rem 0rem;
+  padding: 32px 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 2rem;
+  gap: 24px;
   max-width: 100%;
   overflow: hidden;
 
@@ -228,7 +228,7 @@ const SportGridList = styled.div`
   /* Horizontal Divider */
   & > * + * {
     position: relative;
-    padding-left: 1rem;
+    padding-left: 12px;
   }
 
   & > * + *::before {
@@ -237,7 +237,7 @@ const SportGridList = styled.div`
     top: 3%;
     bottom: 3%;
     /* So it's in middle of the gap for this component */
-    left: -1rem;
+    left: -12px;
     width: 1px;
     background-color: var(--divider-color);
   }
@@ -246,8 +246,8 @@ const SportGridList = styled.div`
 const SportGridListColumn = styled.div`
   color: var(--text-color-primary);
   font-size: var(--font-size-normal);
-  gap: 2rem;
-  padding: 0 2rem;
+  gap: 24px;
+  padding: 0 32px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
