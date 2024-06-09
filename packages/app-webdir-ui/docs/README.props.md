@@ -1,9 +1,6 @@
 ## Components
 
 <dl>
-<dt><a href="#WebDirectory">WebDirectory(props)</a> ⇒ <code>JSX.Element</code></dt>
-<dd><p>React component for displaying web directory search results.</p>
-</dd>
 <dt><a href="#FacultyRankTabPanels">FacultyRankTabPanels()</a> : <code>Object</code></dt>
 <dd><p>Prop types for FacultyRankTabPanels component.</p>
 </dd>
@@ -34,28 +31,6 @@
 <dd><p>Data object representing the filters for faculty rank.</p>
 </dd>
 </dl>
-
-<a name="WebDirectory"></a>
-
-## WebDirectory(props) ⇒ <code>JSX.Element</code>
-React component for displaying web directory search results.
-
-**Kind**: global function  
-**Returns**: <code>JSX.Element</code> - The WebDirectory component.  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| props | <code>Object</code> | The props for configuring the WebDirectory component. |
-| props.searchType | <code>string</code> | The type of web directory search (e.g., 'departments', 'people'). |
-| props.ids | <code>string</code> | The IDs used for searching (e.g., department IDs, ASURITE IDs). |
-| props.deptIds | <code>string</code> | The department IDs for searching. |
-| props.API_URL | <code>string</code> | The API URL for performing the search. |
-| props.searchApiVersion | <code>string</code> | The version of the search API to use. |
-| props.profileURLBase | <code>string</code> | The base URL for profile links. |
-| props.appPathFolder | <code>string</code> | The base path for the application folder. |
-| props.display | <code>object</code> | Display options for the search results. |
-| props.filters | <code>Object</code> | Filters for the search. |
-| props.alphaFilter | <code>string</code> | Indicates whether to enable alpha filtering. |
 
 <a name="FacultyRankTabPanels"></a>
 

@@ -145,7 +145,7 @@ const SportGridListItem = ({ sport }) => {
       <SportNameLink>
         <SportIconWrapper>
           {sport.faClassName ? (
-            <Icon className={sport.faClassName} style={{color: "inherit"}} />
+            <Icon className={sport.faClassName} style={{ color: "inherit" }} />
           ) : (
             <SportIcon sportName={sportName} />
           )}
