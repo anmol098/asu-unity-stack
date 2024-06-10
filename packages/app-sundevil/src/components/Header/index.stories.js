@@ -445,10 +445,9 @@ const headerProps = {
     alt: "Arizona State University",
     title: "Arizona State University",
     // src: "https://live-asuocms.ws.asu.edu/sites/default/files/asu-vertical-logo.png",
-    src: "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/asu.sidearmsports.com/images/responsive/primary_logo.svg",
+    src: "https://thesundevils.com/images/responsive/primary_logo.svg",
     // mobileSrc: "https://live-asuocms.ws.asu.edu/sites/default/files/asu-vertical-logo.png",
-    mobileSrc:
-      "https://dxbhsrqyrr690.cloudfront.net/sidearm.nextgen.sites/asu.sidearmsports.com/images/responsive/primary_logo.svg",
+    mobileSrc: "https://thesundevils.com/images/responsive/primary_logo.svg",
     brandLink: "/",
   },
   // https://upload.wikimedia.org/wikipedia/commons/1/1b/Adidas_2022_logo.svg
